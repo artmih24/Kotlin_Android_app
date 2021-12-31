@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/input_fragment">
+
+    <fragment
+        android:id="@+id/input_fragment"
+        android:name="com.example.mobdevlab4.InputFragment"
+        android:label="@string/input_title"
+        tools:layout="@layout/fragment_input">
+        <action
+            android:id="@+id/display_teams"
+            app:destination="@id/teams_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/teams_fragment"
+        android:name="com.example.mobdevlab4.TeamsFragment"
+        android:label="@string/teams_title"
+        tools:layout="@layout/fragment_teams">
+        <argument
+            android:name="members"
+            app:argType="com.example.mobdevlab4.Member[]"
+            app:nullable="false" />
+    </fragment>
+
+</navigation>

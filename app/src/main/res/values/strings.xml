@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="input_title">Добавление участников</string>
+    <string name="teams_title">Распределение участников</string>
+    <string name="input_name">Имя игрока</string>
+    <string name="edit_member">Редактировать участника</string>
+    <string name="add_member">Новый участник</string>
+    <string name="raffle">Розыгрыш</string>
+    <string name="delete_member">Удалить участника</string>
+    <string name="select_one_member">Выберите ровно одного участника</string>
+    <string name="empty_delete">Не выбрано ни одного участника</string>
+    <string name="confirm_clear">Вы точно хотите удалить выбранные записи?</string>
+    <string name="team_1">Зелёная</string>
+    <string name="team_2">Красная</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="repeat_name">Введите имя участника</string>
+    <string name="empty_name">Участник с таким именем уже существует</string>
+</resources>
